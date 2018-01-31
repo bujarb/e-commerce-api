@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Review;
-use App\Model\Product;
-use Illuminate\Http\Request;
 use App\Http\Resources\ReviewResource;
+use Illuminate\Http\Request;
+use App\Model\Product;
+use App\Model\Review;
 
 class ReviewController extends Controller
 {
@@ -24,10 +24,7 @@ class ReviewController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
-    }
+    public function create(){}
 
     /**
      * Store a newly created resource in storage.
@@ -57,10 +54,7 @@ class ReviewController extends Controller
      * @param  \App\Model\Review  $review
      * @return \Illuminate\Http\Response
      */
-    public function edit(Review $review)
-    {
-        //
-    }
+    public function edit(Review $review){}
 
     /**
      * Update the specified resource in storage.
